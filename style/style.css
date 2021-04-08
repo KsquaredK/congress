@@ -1,0 +1,103 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 21px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 200;
+    color: #161a1d;
+    text-align: center;
+    padding: 0 2em;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 200;
+    color: #660708;
+    text-align: center;
+    padding: 0 2em;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 300;
+    color: #f5f3f4;
+    text-align: center;
+    padding: 0 2em;
+}
+
+h4 {
+    font-size: 28px;
+    font-weight: 300;
+}
+
+h5 {
+    font-size: 24px;
+    font-weight: 200;
+    font-color: #d3d3d3;
+    text-align: left;
+    padding: 0;
+}
+
+header {}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 11%;
+}
+
+aside {}
+
+footer {
+    background-color: #660708;
+    color: #f5f3f4;
+    padding: 5px 24px 5px 40px;
+    margin: 18px auto;
+    font-size: smaller;
+    text-align: left;
+}
+
+.article__info,
+.article__voting-record {
+    background-color: #161a1d;
+    color: #f5f3f4;
+    text-align: left;
+    padding: 24px;
+    margin: 25px auto;
+    width: 100%;
+    border-radius: 8%;
+}
+
+.aside__committees {}
+
+.achievements-layout {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+{}
+
+.article__legislation {}
+
+.footer__sources {
+    background-color: #d3d3d3;
+}
+
+.aside__issues {}
+
+.footer__sources {
+    color: #161a1d;
+    text-decoration: none;
+}
